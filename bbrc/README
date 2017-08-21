@@ -4,7 +4,10 @@ Please cite the models in this folder using the following:
 
 (less temporal) citation of the model: Martin AJ et al. (2017) Stochastic Simulation of Multiscale Complex Systems with PISKaS: a rule-based approach. Submitted manuscript to Biochemical and Biophysical Research Communications.
 
-To simulate please install KaSim [KaSim][https://github.com/Kappa-Dev/KaSim] or PISKaS [PISKaS][https://github.com/DLab/PISKaS]. intructions for simulate the models using BNGL [BNGL][https://github.com/RuleWorld/bionetgen] or MATLAB(r) would be added soon.
+To simulate please install [KaSim](https://github.com/Kappa-Dev/KaSim) or [PISKaS](https://github.com/DLab/PISKaS) and PySB. Intructions for simulate the models using [BNGL](https://github.com/RuleWorld/bionetgen) or MATLAB(r) would be added soon.
+
+To install PySB in python3:
+`sudo -H pip3 install pysb` 
 
 Export to kappa:
 `python3 -m pysb.export setting01.rnap01.sigma07.py kappa > setting01.rnap01.sigma07.kappa`

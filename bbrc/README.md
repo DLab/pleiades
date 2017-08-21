@@ -7,16 +7,21 @@ Please cite the models in this folder using the following:
 To simulate please install [KaSim](https://github.com/Kappa-Dev/KaSim) or [PISKaS](https://github.com/DLab/PISKaS) and PySB. Intructions for simulate the models using [BNGL](https://github.com/RuleWorld/bionetgen) or MATLAB(r) would be added soon.
 
 To install PySB in python3:
-`sudo -H pip3 install pysb` 
+
+`sudo -H pip3 install pysb`
 
 Export to kappa:
+
 `python3 -m pysb.export setting01.rnap01.sigma07.py kappa > setting01.rnap01.sigma07.kappa`
 
 To simulate using KaSim v3.5 (not the master branch):
+
 `path_to_kasim -i setting01.rnap01.sigma07.kappa -t 1000 -p 1000 -o model.out.txt -batch`
 
 To simulate using PISKaS v1.3, the model should be modified with the following statements in the top of the file:
+
 `%compartment: cell 1`
+
 `%use: cell`
 
 then

@@ -1,10 +1,10 @@
 Please cite the models in this folder using the following:
 
-(temporal) citation of the model: Santibáñez R, Garrido D, Pérez-Acle T and Martin AJM. Stochastic modeling of gene regulatory networks in Escherichia coli [version 1; not peer reviewed]. F1000Research 2017, 6(ISCB Comm J):1184 (poster) (doi: 10.7490/f1000research.1114462.1). Download poster [here](https://f1000research.com/posters/6-1184)
+(temporal) citation of the model: Santibáñez R, Garrido D, Pérez-Acle T and Martin AJM. Stochastic modeling of gene regulatory networks in Escherichia coli [version 1; not peer reviewed]. F1000Research 2017, 6(ISCB Comm J):1184 (poster) (doi: 10.7490/f1000research.1114462.1). Download poster [here](https://f1000research.com/posters/6-1184).
 
 (less temporal) citation of the model: Martin AJ et al. (2017) Stochastic Simulation of Multiscale Complex Systems with PISKaS: a rule-based approach. Submitted manuscript to Biochemical and Biophysical Research Communications.
 
-To simulate please install [KaSim](https://github.com/Kappa-Dev/KaSim) or [PISKaS](https://github.com/DLab/PISKaS) and PySB. Intructions for simulate the models using [BNGL](https://github.com/RuleWorld/bionetgen) or MATLAB(r) would be added soon.
+To simulate please install [KaSim](https://github.com/Kappa-Dev/KaSim) or [PISKaS](https://github.com/DLab/PISKaS) and PySB. Intructions to simulate the models using [BNGL](https://github.com/RuleWorld/bionetgen) or MATLAB(r) would be added soon.
 
 To install PySB in python3:
 
